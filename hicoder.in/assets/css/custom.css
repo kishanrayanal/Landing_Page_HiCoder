@@ -1,0 +1,110 @@
+/* Logo  */
+#logo .fa {
+  display: inline-block;
+  font: normal normal normal 25px/1 FontAwesome;
+  font-size: 30px;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.full-width-header .rs-header .menu-area .logo-area img {
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  max-height: 50px;
+  margin-top: 10px;
+}
+
+.full-width-header .rs-header .menu-area.sticky .logo-area img {
+  max-height: 40px;
+  margin-top: 6px;
+}
+
+/* Logo on mobile */
+@media only screen and (max-width: 480px) .full-width-header .rs-header .menu-area.sticky .logo-area img,
+  .rs-footer .footer-content .about-widget .logo-part a img,
+  .full-width-header .rs-header .menu-area .logo-area img {
+  max-height: 50px;
+}
+
+/* Footer Logo */
+@media only screen and (max-width: 480px) .full-width-header .rs-header .menu-area.sticky .logo-area img,
+  .rs-footer .footer-content .about-widget .logo-part a img,
+  .full-width-header .rs-header .menu-area .logo-area img {
+  max-height: 60px;
+}
+
+.hc-footer-link li a {
+  color: #333;
+}
+
+.hc-footer-link li {
+  margin: 0;
+  padding: 0;
+}
+
+.desc-syllabus {
+  font-size: 15px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.hc-header-overlay {
+  background-color: rgb(50, 73, 126);
+}
+
+/* Home slider slider vullet points */
+.hc-slider-bullet::before {
+  margin-top: 10px;
+  content: "◾ ";
+  font-size: 15px;
+  color: rgb(50, 73, 126);
+}
+
+.hc-apply-bg {
+  background-color: #1c398891;
+  background-image: url(../images/apply/bg1.jpg);
+  background-size: cover;
+}
+
+.bg-hc {
+  background-color: rgb(50, 73, 126);
+}
+
+.full-width-header .rs-header .menu-area .logo-area img {
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  max-height: 50px;
+  margin-top: 10px;
+}
+
+.hc-footer-link li a {
+  color: black;
+}
+
+.slider-second-img {
+  padding: 16px 55px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  border: 2px solid white;
+  color: #1c3988;
+  text-transform: uppercase;
+  font-weight: 700;
+  background: white;
+  border-radius: 6px;
+}
+.slider-second-img:hover {
+  color: blue;
+  border: 2px solid blue;
+}
+
+.rs-count-num {
+  font-size: 44px;
+  line-height: 60px;
+  font-weight: 600;
+  color: #ffffff;
+  position: relative;
+  display: inline-block;
+  padding-right: 28px;
+  margin-bottom: 16px;
+}
